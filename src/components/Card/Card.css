@@ -1,0 +1,106 @@
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.ticket-id {
+  color: #6b6b6b;
+  font-size: 14px;
+}
+
+.user-avatar {
+  width: 24px;
+  height: 24px;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  position: relative;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 1px solid white;
+}
+
+.card-title {
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-tags {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Exclamation Tag */
+.exclamation-tag {
+  display: flex;
+  align-items: center;
+}
+
+.exclamation-box {
+  width: 24px;
+  height: 24px;
+  background-color: #f4f5f8; /* Light Grey Background */
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exclamation-icon {
+  font-size: 14px;
+
+  color: white; /* White exclamation mark */
+  background-color: grey; /* Inner Grey Circle */
+  width: 16px;
+  height: 16px;
+  border-radius: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Feature Tag */
+.feature-tag {
+  display: flex;
+  align-items: center;
+}
+
+.feature-icon {
+  width: 8px;
+  height: 8px;
+  background-color: #808080; /* Grey dot */
+  border-radius: 50%;
+}
+
+.feature-text {
+  margin-left: 4px;
+  color: #6b6b6b;
+}
